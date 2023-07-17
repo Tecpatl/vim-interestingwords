@@ -3,8 +3,8 @@
 " .vimrc config https://www.youtube.com/watch?v=xZuy4gBghho
 " --------------------------------------------------------------------
 
-let s:interestingWordsGUIColors = ['#aeee00', '#ff0000', '#0000ff', '#b88823', '#ffa724', '#ff2c4b']
-let s:interestingWordsTermColors = ['154', '121', '211', '137', '214', '222']
+let s:interestingWordsGUIColors = ['#aeee00', '#ff0000', '#0000ff', '#b88823', '#ffa724', '#ff2c4b','#BBFFFF','#CAFF70','#8470FF', '#FAEBD7','#FFF68F', '#F0FFF0']
+let s:interestingWordsTermColors = ['154', '121', '211', '137', '214', '222','201','132','421','321','111','112']
 
 let g:interestingWordsGUIColors = exists('g:interestingWordsGUIColors') ? g:interestingWordsGUIColors : s:interestingWordsGUIColors
 let g:interestingWordsTermColors = exists('g:interestingWordsTermColors') ? g:interestingWordsTermColors : s:interestingWordsTermColors
